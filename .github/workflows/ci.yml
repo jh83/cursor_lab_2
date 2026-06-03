@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - fix/blog-to-linked-comment
   pull_request:
     branches:
       - main
+      - fix/blog-to-linked-comment
 
 jobs:
   build_and_test:
